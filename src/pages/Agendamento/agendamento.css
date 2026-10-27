@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+
+.titulo-agendamentos{
+    font-family:  "Plus Jakarta Sans", sans-serif;
+    text-align: center;
+}
+
+.sem-agendamentos-agendamento {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.capa-ilustracao-favoritos-2{ 
+ width: 69%;
+    height: 500px;
+    margin-right: 40px;
+    
+}
+
+.container-agendamentos{
+     margin-top: 30px;
+}
+

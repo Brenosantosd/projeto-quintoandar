@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+
+.container-formulario{
+
+  padding: 5px;
+  font-family: "Inter", sans-serif;
+  display: flex;
+  margin-left: 150px;
+  margin-top: 20px;
+  margin-bottom: 70px;
+ 
+}
+
+.precoMaximo, .busca, .quartos , .pets{
+
+  margin-right: 15px;
+  padding: 3px;
+  border-radius: 5px;
+  border : 1px solid rgba(0, 0, 0, 0.27);
+  
+}
+
+.busca{
+    border : 1px solid rgba(0, 0, 0, 0.27);
+}
+
+label {
+        font-size: 19px;
+}
+
+button{
+    background-color: #3957BD;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: -7px;
+    margin-left: 10px;
+    border: 1px solid #3957BD;
+}
+
+button:hover{
+
+   opacity: 0.9;
+}
+

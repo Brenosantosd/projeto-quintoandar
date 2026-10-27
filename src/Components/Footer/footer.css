@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+
+
+/* 1. Garante que a aplicação ocupe no mínimo a altura total da tela */
+#root {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* 2. O margin-top: auto empurra o footer para a base da tela quando há pouco conteúdo */
+.footer-container {
+    width: 100%;
+    background-color: #f2422e; 
+    padding: 40px 0 20px 0;
+    margin-top: auto; 
+}
+
+.footer-content {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+    padding: 0 20px;
+     font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-column h4 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #131414; 
+    margin-bottom: 5px;
+}
+
+.footer-column a {
+    color: #f8f9f9; 
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-column a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 25px;
+    color: #090909;
+}
+
+/* 2. O margin-top: auto empurra o footer para a base da tela quando há pouco conteúdo */
+.footer-container {
+    width: 100%;
+    background-color: #faf9f8; 
+    padding: 40px 0 20px 0;
+    margin-top: auto; 
+    border-top: 1px solid rgba(0, 0, 0, 0.198);
+}
+
+.footer-content {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+    padding: 0 20px;
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-column h4 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #131414; 
+    margin-bottom: 5px;
+}
+
+.footer-column a {
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-column a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    margin-top: 70px;
+    text-align: center;
+    font-size: 25px;
+    color: #3957BD
+}

@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+
+.homecontainer{
+  width: 100%;
+  max-width: 1200px; /* Garante que não fique espalhado demais em monitores ultrawide */
+  padding: 20px;
+  box-sizing: border-box;
+  margin-bottom: 100px;
+
+
+}
+
+
+
+.capa-imovel{
+   width: 100%; /*Definindo largura Padão para todas as imgs */
+   height: 240px;  /*Definindo altura Padão para todas as imgs */
+   object-fit: cover;  /*Corta os excessos mantendo a proporção correta */
+   border-radius: 8px; /*Cantos arredondados */
+}
+
+.containerImoveis{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 24px;
+    width: 100%;
+    margin-top: 20px;
+}
+          
+
+.btn-detalhes-Home{   
+          text-decoration: none;
+          margin: 5px;
+          text-align: center;
+          padding: 10px;
+          border-radius: 10px;
+          background-color: #3957BD;
+          font-weight: 600;
+          color: white;
+
+}
+
+.btn-detalhes:hover{
+  opacity: 0.9;
+}
+
+.card-imovel{
+    display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid #e0e0e0;
+  padding: 12px;
+  padding-bottom: 15px;
+
+}
+
+.card-imovel {
+
+   font-family: "Plus Jakarta Sans", sans-serif;
+ 
+
+}
+
+.homecontainer h1{
+
+   font-family: "Plus Jakarta Sans", sans-serif;
+}
+   
