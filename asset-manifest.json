@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/projeto-quintoandar/static/css/main.2f1fff3d.css",
+    "main.js": "/projeto-quintoandar/static/js/main.ed375c70.js",
+    "index.html": "/projeto-quintoandar/index.html",
+    "main.2f1fff3d.css.map": "/projeto-quintoandar/static/css/main.2f1fff3d.css.map",
+    "main.ed375c70.js.map": "/projeto-quintoandar/static/js/main.ed375c70.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2f1fff3d.css",
+    "static/js/main.ed375c70.js"
+  ]
+}
