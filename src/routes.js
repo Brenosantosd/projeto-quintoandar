@@ -15,7 +15,7 @@ import Footer from "./Components/Footer/index.js"
 function RoutesApp(){
     return(
 
-       <BrowserRouter>
+       <BrowserRouter basename={process.env.PUBLIC_URL}>
        <div className="app-container">
        <Header/>
        <div className="main-content">
