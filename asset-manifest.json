@@ -1,17 +1,18 @@
 {
   "files": {
     "main.css": "/projeto-quintoandar/static/css/main.2f1fff3d.css",
-    "main.js": "/projeto-quintoandar/static/js/main.3b969226.js",
+    "main.js": "/projeto-quintoandar/static/js/main.bbff6e9d.js",
     "static/media/apeTijuca.jpg": "/projeto-quintoandar/static/media/apeTijuca.59e093527e0fa8ba07e6.jpg",
+    "static/media/ilustracao2.jpg": "/projeto-quintoandar/static/media/ilustracao2.be5220b78f1ee2f127a0.jpg",
     "static/media/apeBotafogo.jpg": "/projeto-quintoandar/static/media/apeBotafogo.12472ab8f95cae174e49.jpg",
     "static/media/apeFlamengo.jpg": "/projeto-quintoandar/static/media/apeFlamengo.21dce51718e190302a0d.jpg",
     "static/media/apeCopacabana.jpg": "/projeto-quintoandar/static/media/apeCopacabana.844645bb593bea1dc604.jpg",
     "index.html": "/projeto-quintoandar/index.html",
     "main.2f1fff3d.css.map": "/projeto-quintoandar/static/css/main.2f1fff3d.css.map",
-    "main.3b969226.js.map": "/projeto-quintoandar/static/js/main.3b969226.js.map"
+    "main.bbff6e9d.js.map": "/projeto-quintoandar/static/js/main.bbff6e9d.js.map"
   },
   "entrypoints": [
     "static/css/main.2f1fff3d.css",
-    "static/js/main.3b969226.js"
+    "static/js/main.bbff6e9d.js"
   ]
 }
