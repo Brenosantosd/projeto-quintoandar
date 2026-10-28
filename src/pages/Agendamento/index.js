@@ -1,6 +1,7 @@
 import React , {useState , useEffect} from "react"; 
 import {Link} from "react-router-dom"
 import "./agendamento.css"
+import ilustracao2 from '../../assets/ilustracao2.jpg';
 
 
 
@@ -38,7 +39,7 @@ function cancelarAgendamento(id){
           {agendamentos.length === 0 ?(
         <div className="sem-agendamentos-agendamento">
             <p> Ops, nenhum imóvel favoritado...</p>
-            <img className="capa-ilustracao-favoritos-2" src="/ilustracao2.jpg"/>
+            <img className="capa-ilustracao-favoritos-2" src={ilustracao2}/>
             <Link to="/" className="btn-detalhes"> ← Explorar Imóveis</Link>
         </div>
           ) : (

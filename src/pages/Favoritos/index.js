@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import imoveisMock from "../../data/imoveis";
 import "./favoritos.css";
+import ilustracao2 from '../../assets/ilustracao2.jpg';
 
 function Favoritos() {
   const [imoveisFavoritos, setImoveisFavoritos] = useState([]);
@@ -63,7 +64,7 @@ function Favoritos() {
       {imoveisFavoritos.length === 0 ? (
         <div className="sem-favoritos">
           <p> Ops, nenhum imóvel favoritado...</p>
-          <img className="capa-ilustracao-favoritos" src="/ilustracao2.jpg"/>
+          <img className="capa-ilustracao-favoritos" src={ilustracao2}/>
           <Link to="/" className="btn-detalhes"> ← Explorar Imóveis</Link>
         </div>
       ) : (
