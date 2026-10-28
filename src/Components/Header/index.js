@@ -1,6 +1,7 @@
 import React , {useState , useEffect} from "react";
 import {Link} from "react-router-dom";
 import "./header.css";
+import logoQuinto from "../../assets/logoQuinto.png";
 
 
 
@@ -32,7 +33,7 @@ useEffect(()=> {
     return(
         <header>
             <div className="containerLogoeTitulo">
-                <img className="logo" src = "/logoQuinto.png"/>
+                <img className="logo" src = {logoQuinto}/>
             <h1 className="tituloQuintoAndar">QuintoAndar 1.0</h1>
             </div>
           <div className="containerHoraeData">
