@@ -1,4 +1,7 @@
-
+import apeBotafogo from '../assets/apeBotafogo.jpg';
+import apeCopacabana from '../assets/apeCopacabana.jpg';
+import apeFlamengo from '../assets/apeFlamengo.jpg';
+import apeTijuca from '../assets/apeTijuca.jpg';
 
 const imoveisMock = [
   {
@@ -11,7 +14,7 @@ const imoveisMock = [
     banheiros: 1,
     area: 65,
     pets: true,
-    img: "/apeBotafogo.jpg",
+    img: apeBotafogo,
     descricao: "Excelente apartamento reformado, próximo ao metrô, farto comércio e vista para as montanhas."
   },
   {
@@ -24,7 +27,7 @@ const imoveisMock = [
     banheiros: 1,
     area: 38,
     pets: false,
-    img: "/apeCopacabana.jpg",
+    img: apeCopacabana,
     descricao: "Studio mobiliado a duas quadras da praia. Perfeito para quem busca praticidade."
   },
   {
@@ -37,7 +40,7 @@ const imoveisMock = [
     banheiros: 2,
     area: 95,
     pets: true,
-    img: "/apeFlamengo.jpg",
+    img: apeFlamengo,
     descricao: "Amplo apartamento com varanda, suíte e vaga de garagem ao lado do Aterro do Flamengo."
   },
   {
@@ -50,7 +53,7 @@ const imoveisMock = [
     banheiros: 1,
     area: 45,
     pets: true,
-    img: "/apeTijuca.jpg",
+    img: apeTijuca,
     descricao: "Loft estilo industrial recém-entregue, próximo ao metrô Saens Peña."
   }
 ];
